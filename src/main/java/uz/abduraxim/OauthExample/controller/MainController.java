@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/api/main")
+@RequestMapping(value = "/api")
 public class MainController {
 
     @GetMapping(value = "/maqsad")
     public String get(){
-        return "O'zbekistonni birgalikda yuksaltiramiz.";
+        return "O'zbekistonni birgalikda yuksaltiramiz";
     }
 }
